@@ -6,7 +6,7 @@
 //
 // This imports SwiftUI
 import SwiftUI
-
+// I juste add a comment : Hello!!!
 struct ContentView: View {
     
     @State private var vm = ViewModel()
@@ -26,5 +26,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(); 
 }
