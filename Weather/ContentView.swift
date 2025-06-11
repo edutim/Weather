@@ -20,14 +20,7 @@ struct ContentView: View {
                     }
                 }
             }
-            Button("Add Saturday") {
-                vm.addSaturday()
-            }
-            .buttonStyle(.borderedProminent)
-            .tint(.red)
-            Button("Remove Last") {
-                vm.removeSaturday()
-            }
+           
         }
     }
 }
