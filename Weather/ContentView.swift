@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var vm = ViewModel()
-    //  this my comment: Olivier
+    //  this my comment: This is it
     
     var body: some View {
         VStack {
