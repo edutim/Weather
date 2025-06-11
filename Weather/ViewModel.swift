@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//THIS is observable
 @Observable
 class ViewModel {
     var dailyForecasts: [DailyForecastModel] = [
