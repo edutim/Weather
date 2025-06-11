@@ -22,7 +22,7 @@ struct DayForecast: View {
             return "sun.max.fill"
         }
     }
-    
+   // IconColor returns the correct color depending on whether is is raining.
     var iconColor: Color {
         if isRainy {
             return .blue
